@@ -14,7 +14,7 @@
 
 - Blueprint: https://github.com/stephannv/blueprint
 - Webview for Crystal : https://github.com/naqvis/webview
-- Pico CSS : https://picocss.com
+- Pico CSS : https://picocss.coma
 - HTMX : https://github.com/bigskysoftware/htmx
 - Crystal (Crystal-lang) : https://crystal-lang.org
 
@@ -23,18 +23,14 @@
 - libgtk : gtk+-3.0
 (See your package manager for instructions ("apt-get" or "yum" or "pacman", or other, depending upon your linux distribution))
 
-## Installation
-
-1. `git clone https://github.com/serge-hulne/Isomorphic-crystal.git`
-2. `cd isomorphic-crystal-view`
-3. `shards install`
-4. `make`
-5. `./MyApp`
-6. Edit :  ./src/gui/app.cr and ./src/gui/app_actions.cr to create your own app.
-
-
 ## Updates / news :
 https://forum.crystal-lang.org/t/isomorphic-crystal-updates/6007
+
+## Installation / usage
+
+See: https://github.com/serge-hulne/isomorphic-crystal-examples
+
+
 
 ## Usage
 The aim is to provide a portable GUI library which will allows developers to code desktop apps in Crystal.
