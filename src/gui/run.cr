@@ -32,7 +32,7 @@
     puts "http://#{IP}:#{PORT}/#{ROOT}"
 
     wv = Webview.window(WIDTH, HEIGHT, Webview::SizeHints::NONE,
-      "#{TITLE}",
+      "#{title}",
       "http://#{IP}:#{PORT}/#{ROOT}")
 
     wv.run
