@@ -1,6 +1,9 @@
 
 {% if flag?(:linux) %}
+  
+  #======
   # Linux
+  #======
   
   require "process"
   def run_app(title : String)
@@ -22,7 +25,10 @@
   # end
 
 {% elsif flag?(:darwin) %}
+  
+  #======
   # Mac
+  #======
   
   # require "webview"
   # def run_app(title : String)
@@ -45,14 +51,17 @@
 
 
 {% elsif flag?(:win32) %}
-# Windows
-
-def run_app(title : String)
-  puts "http://#{IP}:#{PORT}/#{ROOT}"
-  sleep(1) # Wait a bit for the server to start
-  Process.new("start chrome",  args: ["--app=http://#{IP}:#{PORT}/#{ROOT}"])
-  puts "Press Enter to close..."
-  gets
-end
+  
+  #========
+  # Windows
+  #========
+  
+  def run_app(title : String)
+    puts "http://#{IP}:#{PORT}/#{ROOT}"
+    sleep(1) # Wait a bit for the server to start
+    Process.new("start chrome",  args: ["--app=http://#{IP}:#{PORT}/#{ROOT}"])
+    puts "Press Enter to close..."
+    gets
+  end
 
 {% end %}

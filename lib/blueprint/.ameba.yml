@@ -1,6 +1,0 @@
-Lint/DebugCalls:
-  Enabled: true
-  MethodNames:
-    - p!
-    - pp
-    - pp!
