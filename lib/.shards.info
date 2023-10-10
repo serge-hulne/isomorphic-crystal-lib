@@ -1,0 +1,21 @@
+---
+version: 1.0
+shards:
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.4.1
+  backtracer:
+    git: https://github.com/sija/backtracer.cr.git
+    version: 1.2.2
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.3.1
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    version: 1.4.0
+  webview:
+    git: https://github.com/naqvis/webview.git
+    version: 0.2.3
+  blueprint:
+    git: https://github.com/stephannv/blueprint.git
+    version: 0.4.0
