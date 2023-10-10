@@ -5,7 +5,7 @@
   require "process"
   def run_app(title : String)
     puts "http://#{IP}:#{PORT}/#{ROOT}"
-    sleep(2) # Wait a bit for the server to start
+    sleep(1) # Wait a bit for the server to start
     Process.new("isomorphic",  args: ["http://#{IP}:#{PORT}/#{ROOT}"])
     puts "Press Enter to close..."
     gets
@@ -37,7 +37,7 @@
   require "process"
   def run_app(title : String)
     puts "http://#{IP}:#{PORT}/#{ROOT}"
-    sleep(2) # Wait a bit for the server to start
+    sleep(1) # Wait a bit for the server to start
     Process.new("isomorphic",  args: ["http://#{IP}:#{PORT}/#{ROOT}"])
     puts "Press Enter to close..."
     gets
@@ -49,7 +49,7 @@
 
 def run_app(title : String)
   puts "http://#{IP}:#{PORT}/#{ROOT}"
-  sleep(2) # Wait a bit for the server to start
+  sleep(1) # Wait a bit for the server to start
   Process.new("start chrome",  args: ["--app=http://#{IP}:#{PORT}/#{ROOT}"])
   puts "Press Enter to close..."
   gets
