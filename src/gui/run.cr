@@ -6,11 +6,20 @@
   def run_app(title : String)
     puts "http://#{IP}:#{PORT}/#{ROOT}"
     sleep(2) # Wait a bit for the server to start
-    #Process.new("/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome",  args: ["--app=http://#{IP}:#{PORT}/#{ROOT}"])
-    Process.new("google-chrome",  args: ["--app=http://#{IP}:#{PORT}/#{ROOT}"])
+    Process.new("isomorphic",  args: ["http://#{IP}:#{PORT}/#{ROOT}"])
     puts "Press Enter to close..."
     gets
   end
+
+  # require "process"
+  # def run_app(title : String)
+  #   puts "http://#{IP}:#{PORT}/#{ROOT}"
+  #   sleep(2) # Wait a bit for the server to start
+  #   #Process.new("/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome",  args: ["--app=http://#{IP}:#{PORT}/#{ROOT}"])
+  #   Process.new("google-chrome",  args: ["--app=http://#{IP}:#{PORT}/#{ROOT}"])
+  #   puts "Press Enter to close..."
+  #   gets
+  # end
 
 {% elsif flag?(:darwin) %}
   # Mac
@@ -29,7 +38,7 @@
   def run_app(title : String)
     puts "http://#{IP}:#{PORT}/#{ROOT}"
     sleep(2) # Wait a bit for the server to start
-    Process.new("isomorphic",  args: ["--app=http://#{IP}:#{PORT}/#{ROOT}"])
+    Process.new("isomorphic",  args: ["http://#{IP}:#{PORT}/#{ROOT}"])
     puts "Press Enter to close..."
     gets
   end
