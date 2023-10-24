@@ -48,9 +48,7 @@ GUI lib for Crystal-lang allowing for developing simple desktop apps using Cryst
 https://github.com/serge-hulne/isomorphic-crystal-examples
 
 ## illustrations 
-![Screenshot 2023-09-24 at 10 57 39](https://github.com/serge-hulne/Isomorphic-crystal/assets/303502/8a70e436-432a-4d46-a1f4-319a6de1c0ce)
-![Screenshot 2023-09-24 at 10 56 47](https://github.com/serge-hulne/Isomorphic-crystal/assets/303502/a8e3f0e6-da5e-4176-88c4-644c1b476b59)
-
+https://user-images.githubusercontent.com/303502/275006058-96550c56-8e1a-408a-84c1-8506e9c62b92.png![image](https://github.com/serge-hulne/isomorphic-crystal-lib/assets/303502/aa38d38b-0d8c-4987-8463-fb9b73c58902)
 
 ## Layouts / Styling / Customisation
 To experiment with layouts, graphical appearance, the CSS which is used is pico.css (provided in the module: pico.cr), therefore most of the features of pico.css are available in the current version of the framework.
