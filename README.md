@@ -45,7 +45,7 @@ GUI lib for Crystal-lang allowing for developing simple desktop apps using Cryst
 
 ## Examples 
 
-See ./src/gui/app.cr and ./src/gui/app_actions.cr
+https://github.com/serge-hulne/isomorphic-crystal-examples
 
 ## illustrations 
 ![Screenshot 2023-09-24 at 10 57 39](https://github.com/serge-hulne/Isomorphic-crystal/assets/303502/8a70e436-432a-4d46-a1f4-319a6de1c0ce)
